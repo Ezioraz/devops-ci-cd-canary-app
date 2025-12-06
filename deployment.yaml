@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: 447407244516.dkr.ecr.ap-south-1.amazonaws.com/ci-cd-canary-app:latest
+          image: 447407244516.dkr.ecr.ap-south-1.amazonaws.com/ci-cd-canary-app:IMAGE_TAG_PLACEHOLDER
           ports:
             - containerPort: 3000
           imagePullPolicy: Always
